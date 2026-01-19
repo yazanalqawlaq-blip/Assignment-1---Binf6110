@@ -29,9 +29,9 @@ Kolmogorov, M., Yuan, J., Lin, Y., & Pevzner, P. A. (2019). Assembly of long, er
 
 Wick, R. R., & Holt, K. E. (2019). Benchmarking of long-read assemblers for prokaryote whole genome sequencing. F1000Research, 8, 2138. doi:10.12688/f1000research.21782.4
 
-Sereika, M., Vetcher, A., et al. (2022). R10.4 long-read sequencing enables near-finished bacterial genomes without short-read polishing. Nature Methods. doi:10.1038/s41592-022-01539-7
+Sereika, M., Vetcher, A., et al. (2022). Oxford Nanopore  R10.4 long-read sequencing enables the generation of  near-finished bacterial genomes from pure cultures and metagenomes  without short-read or reference polishing. Nature Methods. doi:10.1038/s41592-022-01539-7
 
-Lee, N., Jang, J. H., Kim, Y., et al. (2021). Comparative evaluation of nanopore polishing tools for microbial genome assembly and downstream analysis. Scientific Reports, 11, 20740. doi:10.1038/s41598-021-00178-w
+Lee, J., Kong, M. , Oh, J., et al. (2021). Comparative evaluation of nanopore polishing tools for microbial genome assembly and polishing strategies for  downstream analysis. Scientific Reports, 11, 20740. doi:10.1038/s41598-021-00178-w
 
 Li, H., Handsaker, B., Wysoker, A., et al. (2009). The Sequence Alignment/Map format and SAMtools. Bioinformatics, 25(16), 2078–2079. doi:10.1093/bioinformatics/btp352
 
