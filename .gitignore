@@ -1,0 +1,24 @@
+# Raw data files
+*.sra
+*.fastq
+*.fastq.gz
+sra/
+fastq/
+
+# Large alignment files
+*.bam
+*.bam.bai
+*.sam
+
+# Intermediate assembly files
+flye_*/
+medaka_out/
+
+# SLURM logs
+slurm/*.out
+
+# Keep small result files
+!output_files/*.txt
+!output_files/*.vcf
+!output_files/*.pdf
+!figures/*.png
