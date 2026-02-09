@@ -22,3 +22,4 @@ slurm/*.out
 !output_files/*.vcf
 !output_files/*.pdf
 !figures/*.png
+output_files/assembly_*.txt
