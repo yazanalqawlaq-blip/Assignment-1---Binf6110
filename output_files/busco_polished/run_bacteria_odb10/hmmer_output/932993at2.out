@@ -1,0 +1,18 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+contig_3:1832496-1833794|- -            433 932993at2            -            255   4.3e-27   93.0  31.7   1   5   7.7e-10   3.7e-06   24.4   0.1     9    58    15    72     7    84 0.83 contig_3_1773 # 1832496 # 1833794 # -1 # ID=3_1773;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.523
+contig_3:1832496-1833794|- -            433 932993at2            -            255   4.3e-27   93.0  31.7   2   5   2.9e-10   1.4e-06   25.7   2.2    65   120    99   173    93   187 0.84 contig_3_1773 # 1832496 # 1833794 # -1 # ID=3_1773;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.523
+contig_3:1832496-1833794|- -            433 932993at2            -            255   4.3e-27   93.0  31.7   3   5   7.9e-15   3.8e-11   40.7   2.6   117   190   197   286   194   292 0.81 contig_3_1773 # 1832496 # 1833794 # -1 # ID=3_1773;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.523
+contig_3:1832496-1833794|- -            433 932993at2            -            255   4.3e-27   93.0  31.7   4   5   9.3e-06     0.045   11.0   0.2   198   231   334   369   330   378 0.85 contig_3_1773 # 1832496 # 1833794 # -1 # ID=3_1773;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.523
+contig_3:1832496-1833794|- -            433 932993at2            -            255   4.3e-27   93.0  31.7   5   5   6.6e-05      0.32    8.2   1.9   221   254   387   420   382   421 0.84 contig_3_1773 # 1832496 # 1833794 # -1 # ID=3_1773;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.523
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      busco_downloads/bacteria_odb10/hmms/932993at2.hmm
+# Target file:     output_files/busco_polished/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout output_files/busco_polished/run_bacteria_odb10/hmmer_output/932993at2.out --cpu 1 busco_downloads/bacteria_odb10/hmms/932993at2.hmm output_files/busco_polished/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /scratch/yazanalq/Assignment-1---Binf6110
+# Date:            Sun Feb  8 19:21:27 2026
+# [ok]

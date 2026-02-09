@@ -1,0 +1,16 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+contig_2:429364-429798|+   -            145 1874945at2           -             87   6.4e-23   78.6  11.5   1   2   2.4e-23   5.8e-20   69.2   6.7     1    55     1    64     1    89 0.84 contig_2_398 # 429364 # 429798 # 1 # ID=1_398;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.545
+contig_2:429364-429798|+   -            145 1874945at2           -             87   6.4e-23   78.6  11.5   2   2   1.5e-05     0.035   12.2   0.1    69    87   124   142   108   142 0.84 contig_2_398 # 429364 # 429798 # 1 # ID=1_398;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.545
+contig_3:2073233-2073433|+ -             67 1874945at2           -             87     0.035   12.2   0.0   1   1   1.8e-05     0.044   11.9   0.0    52    83    23    54    20    58 0.89 contig_3_2001 # 2073233 # 2073433 # 1 # ID=2_2001;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.498
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      busco_downloads/bacteria_odb10/hmms/1874945at2.hmm
+# Target file:     output_files/busco_raw/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout output_files/busco_raw/run_bacteria_odb10/hmmer_output/1874945at2.out --cpu 1 busco_downloads/bacteria_odb10/hmms/1874945at2.hmm output_files/busco_raw/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /scratch/yazanalq/Assignment-1---Binf6110
+# Date:            Sun Feb  8 19:21:27 2026
+# [ok]

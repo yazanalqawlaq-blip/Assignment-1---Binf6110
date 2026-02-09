@@ -1,0 +1,21 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+contig_3:387923-389695|+   -            591 226836at2            -            473  5.7e-183  606.5   0.0   1   1    1e-185  1.2e-182  605.4   0.0     1   473     2   579     2   579 0.84 contig_3_385 # 387923 # 389695 # 1 # ID=2_385;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.566
+contig_2:848363-849880|+   -            506 226836at2            -            473   3.4e-33  112.6   2.5   1   2   1.5e-22   1.8e-19   67.4   0.5     4   241    57   321    54   365 0.74 contig_2_811 # 848363 # 849880 # 1 # ID=1_811;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.541
+contig_2:848363-849880|+   -            506 226836at2            -            473   3.4e-33  112.6   2.5   2   2   1.2e-15   1.4e-12   44.7   0.1   364   450   410   500   367   504 0.77 contig_2_811 # 848363 # 849880 # 1 # ID=1_811;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.541
+contig_3:1284040-1285440|+ -            467 226836at2            -            473   1.9e-21   73.9   0.2   1   3   4.9e-09   5.9e-06   22.8   0.0    11   146    16   175    10   189 0.69 contig_3_1270 # 1284040 # 1285440 # 1 # ID=2_1270;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.551
+contig_3:1284040-1285440|+ -            467 226836at2            -            473   1.9e-21   73.9   0.2   2   3   0.00013      0.16    8.3   0.1   176   229   222   279   209   324 0.81 contig_3_1270 # 1284040 # 1285440 # 1 # ID=2_1270;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.551
+contig_3:1284040-1285440|+ -            467 226836at2            -            473   1.9e-21   73.9   0.2   3   3   5.6e-14   6.7e-11   39.1   0.0   362   453   374   462   341   466 0.85 contig_3_1270 # 1284040 # 1285440 # 1 # ID=2_1270;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.551
+contig_3:2624783-2625760|- -            326 226836at2            -            473   1.5e-19   67.6   0.2   1   2   5.1e-11   6.1e-08   29.4   0.1   122   265    27   187    14   201 0.74 contig_3_2488 # 2624783 # 2625760 # -1 # ID=2_2488;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.537
+contig_3:2624783-2625760|- -            326 226836at2            -            473   1.5e-19   67.6   0.2   2   2   3.8e-13   4.6e-10   36.4   0.0   361   449   229   321   207   325 0.81 contig_3_2488 # 2624783 # 2625760 # -1 # ID=2_2488;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.537
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      busco_downloads/bacteria_odb10/hmms/226836at2.hmm
+# Target file:     output_files/busco_raw/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout output_files/busco_raw/run_bacteria_odb10/hmmer_output/226836at2.out --cpu 1 busco_downloads/bacteria_odb10/hmms/226836at2.hmm output_files/busco_raw/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /scratch/yazanalq/Assignment-1---Binf6110
+# Date:            Sun Feb  8 19:21:27 2026
+# [ok]

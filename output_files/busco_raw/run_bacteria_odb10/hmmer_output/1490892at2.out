@@ -1,0 +1,17 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+contig_2:792188-792919|- -            244 1490892at2           -             89   8.9e-14   49.5  12.0   1   4   0.00057       2.8    6.2   0.0     1    18    25    42    25    67 0.92 contig_2_758 # 792188 # 792919 # -1 # ID=1_758;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.553
+contig_2:792188-792919|- -            244 1490892at2           -             89   8.9e-14   49.5  12.0   2   4     6e-06     0.029   12.6   0.0     3    31    81   107    79   118 0.80 contig_2_758 # 792188 # 792919 # -1 # ID=1_758;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.553
+contig_2:792188-792919|- -            244 1490892at2           -             89   8.9e-14   49.5  12.0   3   4   1.8e-05     0.085   11.1   0.5    35    51   127   143   114   152 0.80 contig_2_758 # 792188 # 792919 # -1 # ID=1_758;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.553
+contig_2:792188-792919|- -            244 1490892at2           -             89   8.9e-14   49.5  12.0   4   4   3.7e-08   0.00018   19.7   3.0    56    89   191   235   185   235 0.76 contig_2_758 # 792188 # 792919 # -1 # ID=1_758;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.553
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      busco_downloads/bacteria_odb10/hmms/1490892at2.hmm
+# Target file:     output_files/busco_raw/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout output_files/busco_raw/run_bacteria_odb10/hmmer_output/1490892at2.out --cpu 1 busco_downloads/bacteria_odb10/hmms/1490892at2.hmm output_files/busco_raw/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /scratch/yazanalq/Assignment-1---Binf6110
+# Date:            Sun Feb  8 19:21:26 2026
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+contig_3:2506237-2507172|+ -            312 1844275at2           -            194   4.7e-46  154.9   3.1   1   2     4e-38   4.9e-35  119.0   0.5    10   128    42   184    36   200 0.84 contig_3_2373 # 2506237 # 2507172 # 1 # ID=2_2373;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.549
+contig_3:2506237-2507172|+ -            312 1844275at2           -            194   4.7e-46  154.9   3.1   2   2     2e-10   2.4e-07   28.6   0.1   132   194   220   305   208   305 0.72 contig_3_2373 # 2506237 # 2507172 # 1 # ID=2_2373;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.549
+contig_3:2498391-2499395|+ -            335 1844275at2           -            194   6.4e-10   37.0   0.5   1   2     6e-12   7.2e-09   33.6   0.1     8    99    43   147    40   149 0.71 contig_3_2365 # 2498391 # 2499395 # 1 # ID=2_2365;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.521
+contig_3:2498391-2499395|+ -            335 1844275at2           -            194   6.4e-10   37.0   0.5   2   2      0.39   4.6e+02   -1.7   0.0   163   192   299   330   293   332 0.71 contig_3_2365 # 2498391 # 2499395 # 1 # ID=2_2365;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.521
+contig_3:2502872-2503876|+ -            335 1844275at2           -            194   1.8e-08   32.3   0.1   1   1   1.7e-10     2e-07   28.8   0.1     8    99    44   148    40   151 0.72 contig_3_2369 # 2502872 # 2503876 # 1 # ID=2_2369;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.554
+contig_3:2966938-2967303|- -            122 1844275at2           -            194    0.0022   15.7   0.2   1   1   2.5e-06     0.003   15.2   0.2   131   188    14    72     7    76 0.86 contig_3_2816 # 2966938 # 2967303 # -1 # ID=2_2816;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.462
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      busco_downloads/bacteria_odb10/hmms/1844275at2.hmm
+# Target file:     output_files/busco_raw/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout output_files/busco_raw/run_bacteria_odb10/hmmer_output/1844275at2.out --cpu 1 busco_downloads/bacteria_odb10/hmms/1844275at2.hmm output_files/busco_raw/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /scratch/yazanalq/Assignment-1---Binf6110
+# Date:            Sun Feb  8 19:21:27 2026
+# [ok]

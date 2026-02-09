@@ -1,0 +1,14 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+contig_2:426465-427004|+ -            180 1456375at2           -            143     4e-69  229.2   0.1   1   1     1e-72     5e-69  228.9   0.1     2   142    19   170    18   171 0.92 contig_2_391 # 426465 # 427004 # 1 # ID=2_391;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.494
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      busco_downloads/bacteria_odb10/hmms/1456375at2.hmm
+# Target file:     output_files/busco_polished/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout output_files/busco_polished/run_bacteria_odb10/hmmer_output/1456375at2.out --cpu 1 busco_downloads/bacteria_odb10/hmms/1456375at2.hmm output_files/busco_polished/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /scratch/yazanalq/Assignment-1---Binf6110
+# Date:            Sun Feb  8 19:21:24 2026
+# [ok]
