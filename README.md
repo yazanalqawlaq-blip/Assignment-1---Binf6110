@@ -125,6 +125,14 @@ Genome comparison visualization was generated using a custom Python script execu
 
 **Figure 1. IGV Visualization of Variant Positions in the *Salmonella enterica* Assembly Aligned to the Reference Genome.** The polished assembly was aligned to the *S. enterica* Typhimurium LT2 reference genome using minimap2 and visualized in IGV. The top track shows the reference sequence with amino acid translation, and gene annotations are displayed below. Gray alignment blocks represent the assembled genome, with SNPs highlighted as colored blocks at variant positions. The region shown contains multiple variants, including several silent substitutions that do not alter amino acid coding. Notably, one SNP results in a His→Asn substitution (CAC→AAC), changing histidine to asparagine at this position. Coverage across the region is uniform with no evidence of structural variation, and observed differences are limited to single-nucleotide polymorphisms consistent with strain-level divergence from the reference.
 
+
+---
+
+![Image](https://github.com/user-attachments/assets/4ea114f9-44df-4554-9dea-84d21d437988)
+
+**Figure 2. Circos Plot Showing Genome-Wide Variant Distribution in *Salmonella enterica* Assembly.** The circular plot displays the reference genome structure of *S. enterica* Typhimurium LT2 with the main chromosome (NC_003197.2) and virulence plasmid (NC_003277.2) shown as outer segments. The inner track shows the distribution of 9,407 variants (9,337 SNPs and 70 indels) identified by aligning the polished assembly to the reference genome. Variant positions are displayed as radial lines, with density reflecting the frequency of genetic differences across genomic regions. The widespread distribution of variants around the genome indicates strain-level divergence rather than localized assembly errors or hotspots, supporting that the observed differences represent genuine biological variation between the sequenced isolate and the LT2 reference strain. Circos plot was generated using Circa (https://omgenomics.com/circa).
+
+
 ---
 
 ## Discussion
