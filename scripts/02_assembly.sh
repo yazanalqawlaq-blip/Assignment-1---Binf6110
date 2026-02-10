@@ -22,3 +22,10 @@ apptainer exec flye_2.9.6--py311h2de2dd3_0.sif flye \
     --nano-hq "$FASTQ" \
     --out-dir output_files/flye_assembly \
     --threads 16
+
+# --- Summary ---
+# Assembles the nanopore reads using Flye (--nano-hq mode) to produce
+# a de novo genome assembly of the Salmonella isolate.
+#
+# References:
+# Flye: https://github.com/mikolmogorov/Flye
