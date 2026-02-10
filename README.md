@@ -120,6 +120,7 @@ Genome comparison visualization was generated using a custom Python script execu
 | **Total Variants** | **9,407** |
 
 
+
 ![Image](https://github.com/user-attachments/assets/aa456df2-100a-4ec7-9f5b-059f909c3cc3)
 Figure 1. IGV Visualization of Variant Positions in the Salmonella enterica Assembly Aligned to the Reference Genome. The polished assembly was aligned to the S. enterica Typhimurium LT2 reference genome using minimap2 and visualized in IGV. The top track shows the reference sequence with amino acid translation, and gene annotations are displayed below. Gray alignment blocks represent the assembled genome, with SNPs highlighted as colored blocks at variant positions. The region shown contains multiple variants, including several silent substitutions that do not alter amino acid coding. Notably, one SNP results in a His→Asn substitution (CAC→AAC), changing histidine to asparagine at this position. Coverage across the region is uniform with no evidence of structural variation, and observed differences are limited to single-nucleotide polymorphisms consistent with strain-level divergence from the reference. 
 
