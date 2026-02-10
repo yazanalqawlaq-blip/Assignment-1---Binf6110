@@ -53,3 +53,11 @@ print("Figure saved: output_files/figure3_quality_graph.png")
 EOF
 
 ls -lh output_files/figure3_quality_graph.png
+
+# --- Summary ---
+# Produces a grouped bar chart comparing key quality metrics
+# (N50, total length, BUSCO, mismatches, indels) between the
+# raw and polished assemblies using matplotlib.
+#
+# References:
+# matplotlib: https://matplotlib.org/stable/index.html
