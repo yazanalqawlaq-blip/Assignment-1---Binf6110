@@ -28,3 +28,10 @@ apptainer exec medaka_latest.sif medaka_consensus -m "$MODEL" \
   -o output_files/medaka_out \
   -t "$THREADS"
 
+# --- Summary ---
+# Polishes the raw assembly with Medaka using the nanopore reads
+# and the R10.4.1 super-accuracy basecalling model to correct
+# remaining consensus errors.
+#
+# References:
+# Medaka: https://github.com/nanoporetech/medaka
