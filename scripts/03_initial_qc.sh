@@ -36,3 +36,12 @@ apptainer exec busco_5.7.1--pyhdfd78af_0.sif busco \
   -c 8
 
 echo "Initial QC complete!"
+
+# --- Summary ---
+# Evaluates the raw Flye assembly using QUAST (against the reference)
+# for contiguity metrics and BUSCO for gene
+# completeness. Serves as a pre-polishing baseline.
+#
+# References:
+# QUAST: https://github.com/ablab/quast
+# BUSCO: https://busco.ezlab.org/
