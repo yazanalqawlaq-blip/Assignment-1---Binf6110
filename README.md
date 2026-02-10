@@ -82,7 +82,6 @@ Genome comparison visualization was generated using a custom Python script execu
 | QUAST | 5.2.0 | Assembly quality assessment |
 | BUSCO | 5.7.1 | Genome completeness evaluation |
 | Python | 3.11 | Data visualization |
-| scipy-stack | 2024b | Scientific Python libraries |
 
 ### Results
 
