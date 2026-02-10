@@ -27,3 +27,12 @@ cd input_data
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/006/945/GCF_000006945.2_ASM694v2/GCF_000006945.2_ASM694v2_genomic.fna.gz
 gunzip GCF_000006945.2_ASM694v2_genomic.fna.gz
 mv GCF_000006945.2_ASM694v2_genomic.fna reference_fasta.fna
+
+# --- Summary ---
+# Downloads Oxford Nanopore sequencing data (SRR32410565) from SRA,
+# converts to FASTQ format, compresses it, and fetches the
+# Salmonella enterica reference genome (GCF_000006945.2) from NCBI.
+#
+# References:
+# SRA Toolkit: https://github.com/ncbi/sra-tools/wiki/HowTo:-fasterq-dump
+# NCBI Reference: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000006945.2/
