@@ -66,6 +66,10 @@ echo "Alignment and variant calling complete!"
 # --- Summary ---
 # Aligns raw reads to the reference with minimap2 (map-ont), calls
 # variants with bcftools (mpileup/call), normalizes and filters them,
-# then aligns the polished assembly to the reference (asm5) for
+# then aligns the polished assembly to the reference for
 # structural comparison.
-# Reference: https://samtools.github.io/bcftools/bcftools.html
+#
+# References:
+# minimap2: https://github.com/lh3/minimap2
+# samtools: https://www.htslib.org/doc/samtools.html
+# bcftools: https://samtools.github.io/bcftools/bcftools.html
