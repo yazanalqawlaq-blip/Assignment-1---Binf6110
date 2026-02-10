@@ -23,3 +23,6 @@ slurm/*.out
 !output_files/*.pdf
 !figures/*.png
 output_files/assembly_*.txt
+*.sif
+busco_downloads/
+SRR32410565.fastq.gz
