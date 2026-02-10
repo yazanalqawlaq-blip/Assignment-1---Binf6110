@@ -36,8 +36,7 @@ I will call SNPs and short indels relative to the reference using **bcftools v1.
 Assignment-1---Binf6110/
 ├── input_data/              # Reference genome (GCF_000006945.2)
 ├── output_files/            # Assembly, QC reports, alignments, variants
-├── scripts/                 # Analysis pipeline (8 scripts: 01-08)
-├── slurm/                   # Job logs from Compute Canada Narval
+├── scripts/                 # Analysis pipeline 
 └── README.md               # Complete documentation
 ```
 
