@@ -29,7 +29,6 @@ I will call SNPs and short indels relative to the reference using **bcftools v1.
 
 ---
 
-## Part 2: Final Methods and Results
 
 ### Project Structure
 ```
