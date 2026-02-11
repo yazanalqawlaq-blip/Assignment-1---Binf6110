@@ -1,7 +1,7 @@
 # *Salmonella enterica* Genome Assembly and Variant Analysis
 
 **Course:** BINF*6110 - Bioinformatics  
-**Author:** Yazan Al-Qawlaq  
+**Author:** Yazan Alqawlaq  
 **Date:** February 2026  
 **Repository:** https://github.com/yazanalqawlaq-blip/Assignment-1---Binf6110
 
