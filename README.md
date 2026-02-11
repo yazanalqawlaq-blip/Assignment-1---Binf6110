@@ -80,6 +80,8 @@ All analyses were executed on the Compute Canada Narval HPC cluster. Bioinformat
 | BUSCO | 5.7.1 | Genome completeness evaluation |
 | Python | 3.11 | Data visualization |
 
+---
+
 ### Results
 
 #### Assembly Statistics
@@ -128,6 +130,11 @@ All analyses were executed on the Compute Canada Narval HPC cluster. Bioinformat
 
 **Figure 2. Circos Plot Showing Genome-Wide Variant Distribution in *Salmonella enterica* Assembly.** The circular plot displays the reference genome structure of *S. enterica* Typhimurium LT2 with the main chromosome (NC_003197.2) and virulence plasmid (NC_003277.2) shown as outer segments. The inner track shows the distribution of 9,407 variants (9,337 SNPs and 70 indels) identified by aligning the polished assembly to the reference genome. Variant positions are displayed as radial lines, with density reflecting the frequency of genetic differences across genomic regions. The widespread distribution of variants around the genome indicates strain-level divergence rather than localized assembly errors or hotspots, supporting that the observed differences represent genuine biological variation between the sequenced isolate and the LT2 reference strain. Circos plot was generated using Circa (https://omgenomics.com/circa).
 
+---
+
+<img width="2964" height="1769" alt="Image" src="https://github.com/user-attachments/assets/3ddb66dc-5dd0-44dd-8ab5-12c826457aca" />
+
+**Figure 3. Assembly Quality Metrics Comparison Between Raw and Polished Assemblies.** Bar graph comparing five key quality metrics between the raw Flye assembly (blue) and Medaka-polished assembly (red). Metrics include N50 (megabases), total assembly length (megabases), BUSCO genome completeness (percentage of conserved genes), and error rates (mismatches and indels per 100 kilobases). Polishing reduced error rates slightly (mismatches: 27.41 → 27.11 per 100 kbp; indels: 3.83 → 3.71 per 100 kbp) while maintaining high N50 contiguity (3.32 Mb) and near-complete BUSCO scores (99.2% raw, 98.4% polished), demonstrating that base-level corrections were achieved without compromising structural quality or gene completeness.
 
 ---
 
