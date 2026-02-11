@@ -70,7 +70,7 @@ All analyses were executed on the Compute Canada Narval HPC cluster. Bioinformat
 |------|---------|---------|
 | SRA Toolkit | 3.2.1 | Data download and conversion |
 | Flye | 2.9.6 | De novo genome assembly |
-| Medaka | 2.0.1 | Consensus polishing |
+| Medaka | 2.2.0 | Consensus polishing |
 | minimap2 | 2.28 | Read and assembly alignment |
 | SAMtools | 1.20 | BAM file processing |
 | bcftools | 1.22 | Variant calling and filtering |
@@ -82,7 +82,7 @@ All analyses were executed on the Compute Canada Narval HPC cluster. Bioinformat
 
 ## Results
 
-#### Assembly Statistics
+**Table 1.** Assembly statistics comparing the raw Flye assembly, Medaka-polished assembly, and the *S. enterica* LT2 reference genome.
 
 | Metric | Raw Assembly (Flye) | Polished Assembly (Medaka) | Reference (LT2) |
 |--------|---------------------|----------------------------|-----------------|
@@ -93,7 +93,7 @@ All analyses were executed on the Compute Canada Narval HPC cluster. Bioinformat
 | GC Content (%) | 52.20 | 52.20 | 52.24 |
 | Mean Coverage | 127× | 127× | — |
 
-#### Quality Assessment
+**Table 2.** Quality assessment of raw and polished assemblies using BUSCO (bacteria_odb10) and QUAST reference-based metrics.
 
 | Metric | Raw Assembly | Polished Assembly |
 |--------|--------------|-------------------|
@@ -107,7 +107,7 @@ All analyses were executed on the Compute Canada Narval HPC cluster. Bioinformat
 | Indels per 100 kbp | 3.83 | 3.71 |
 | Misassemblies | 25 | 25 |
 
-#### Variant Analysis
+**Table 3.** Variant counts identified between the sequenced isolate and the *S. enterica* LT2 reference genome after quality filtering (QUAL ≥ 30, DP ≥ 15).
 
 | Variant Type | Count |
 |--------------|-------|
