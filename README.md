@@ -54,7 +54,7 @@ Two alignment strategies were implemented using minimap2 v2.28 and processed wit
 
 ### Variant Calling and Filtering
 
-Variant calling was performed on the reads-to-reference alignment using bcftools v1.22. The `bcftools mpileup` command was run with a minimum base quality of 10 (`-Q 10`), minimum mapping quality of 5 (`-q 5`), maximum per-sample depth of 8,000 (`-d 8000`), and annotation of per-sample depth and allelic depth. Output was piped to `bcftools call` with the multiallelic caller (`-m`) and haploid ploidy (`--ploidy 1`). Variants were then normalized using `bcftools norm` to left-align indels and split multi-allelic sites before filtering. Quality filtering was applied using `bcftools filter` with the expression `QUAL<30 || FORMAT/DP<15` to exclude low-confidence and low-coverage calls. The final variant set was extracted using `bcftools view -v snps,indels`, and summary statistics were generated with `bcftools stats`.
+Variant calling was performed on the reads-to-reference alignment using bcftools v1.22. The `bcftools mpileup` command was run with a minimum base quality of 10, minimum mapping quality of 5, maximum per-sample depth of 8,000, and annotation of per-sample depth and allelic depth. Output was piped to `bcftools call` with the multiallelic caller (`-m`) and haploid ploidy. Variants were then normalized using `bcftools norm` to left-align indels and split multi-allelic sites before filtering. Quality filtering was applied using `bcftools filter` with the expression `QUAL<30 || FORMAT/DP<15` to exclude low-confidence and low-coverage calls. The final variant set was extracted using `bcftools view -v snps,indels`, and summary statistics were generated with `bcftools stats`.
 
 ### Visualization
 
