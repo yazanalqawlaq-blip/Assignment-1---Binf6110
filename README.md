@@ -80,7 +80,7 @@ All analyses were executed on the Compute Canada Narval HPC cluster. Bioinformat
 
 ---
 
-### Results
+## Results
 
 #### Assembly Statistics
 
