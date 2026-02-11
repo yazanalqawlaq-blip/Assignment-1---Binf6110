@@ -46,7 +46,7 @@ The raw Flye assembly was polished using Medaka v2.2.0 (Oxford Nanopore Technolo
 
 ### Assembly Quality Assessment
 
-Assembly quality was evaluated at two stages—before and after polishing—using two complementary tools. QUAST v5.2.0 was used to compute contiguity and reference-based metrics including contig count, total length, N50, genome fraction, misassemblies, and error rates, with the reference genome provided via the `-r` flag and 8 threads for parallel processing (Gurevich et al., 2013). BUSCO v5.7.1 was used to assess genome completeness by identifying conserved single-copy orthologs from the `bacteria_odb10` lineage dataset in genome mode (`-m genome`), run in offline mode with a locally downloaded database to avoid network connectivity issues on the HPC cluster (Manni et al., 2021).
+Assembly quality was evaluated at two stages,before and after polishing, using two complementary tools. QUAST v5.2.0 was used to compute contiguity and reference-based metrics including contig count, total length, N50, genome fraction, misassemblies, and error rates, with the reference genome provided via the `-r` flag and 8 threads for parallel processing (Gurevich et al., 2013). BUSCO v5.7.1 was used to assess genome completeness by identifying conserved single-copy orthologs from the `bacteria_odb10` lineage dataset in genome mode (`-m genome`), run in offline mode with a locally downloaded database to avoid network connectivity issues on the HPC cluster (Manni et al., 2021).
 
 ### Reference-Based Alignment
 
