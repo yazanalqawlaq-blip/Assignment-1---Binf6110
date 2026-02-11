@@ -42,7 +42,7 @@ The raw reads were assembled de novo with Flye v2.9.6 with the `--nano-hq` prese
 
 ### Assembly and Polishing
 
-The raw Flye assembly was polished using Medaka v2.2.0 (Oxford Nanopore Technologies) to correct residual basecalling errors. Polishing was performed with `medaka_consensus` using the `r1041_e82_400bps_sup_v5.0.0` model, which is specifically trained for R10.4.1 flow cell chemistry with accurate basecalling. The original FASTQ reads were provided as input alongside the draft assembly, and polishing was run with 16 threads. Medaka applies neural network-based error correction by aligning reads to the draft assembly and generating an improved consensus sequence.
+The raw Flye assembly was polished using Medaka v2.2.0 (Oxford Nanopore Technologies) to correct residual basecalling errors. Polishing was performed with `medaka_consensus` using the `r1041_e82_400bps_sup_v5.0.0` model, which is specifically trained for R10.4.1 flow cell chemistry with accurate basecalling. The original FASTQ reads were provided as input alongside the draft assembly, and polishing was run with 16 threads. Medaka uses a deep learning approach to generate a corrected consensus from the pileup of reads against the draft assembly (Lee et al., 2021).
 
 ### Assembly Quality Assessment
 
