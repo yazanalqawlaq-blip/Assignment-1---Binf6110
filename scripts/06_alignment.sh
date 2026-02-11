@@ -50,9 +50,9 @@ bcftools filter -e 'QUAL<30 || FORMAT/DP<15' \
 
 # Extract only variant sites (exclude reference-matching positions)
 bcftools view -v snps,indels "$OUTDIR/filtered.vcf" \
-  -Ov -o "$OUTDIR/variants_only.vcf"
+  -Ov -o "$OUTDIR/variants.vcf"
 
-bcftools stats "$OUTDIR/variants_only.vcf" > "$OUTDIR/variant_stats.txt"
+bcftools stats "$OUTDIR/variants.vcf" > "$OUTDIR/variant_stats.txt"
 
 echo "Aligning assembly to reference..."
 minimap2 -a -x asm5 -t 16 "$REF" "$POLISHED" | \
