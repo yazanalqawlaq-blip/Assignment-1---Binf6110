@@ -166,8 +166,6 @@ Brandis, G., & Hughes, D. (2016). The selective advantage of synonymous codon us
 
 Danecek, P., Bonfield, J. K., Liddle, J., et al. (2021). Twelve years of SAMtools and BCFtools. *GigaScience*, 10(2), giab008. https://doi.org/10.1093/gigascience/giab008
 
-De Coster, W., D'Hert, S., Schultz, D. T., Cruts, M., & Van Broeckhoven, C. (2018). NanoPack: Visualizing and processing long-read sequencing data. *Bioinformatics*, 34(15), 2666–2669. https://doi.org/10.1093/bioinformatics/bty149
-
 Gurevich, A., Saveliev, V., Vyahhi, N., & Tesler, G. (2013). QUAST: Quality assessment tool for genome assemblies. *Bioinformatics*, 29(8), 1072–1075. https://doi.org/10.1093/bioinformatics/btt086
 
 Havelaar, A. H., Kirk, M. D., Torgerson, P. R., et al. (2015). World Health Organization global estimates and regional comparisons of the burden of foodborne disease in 2010. *PLOS Medicine*, 12(12), e1001923. https://doi.org/10.1371/journal.pmed.1001923
@@ -198,6 +196,14 @@ Thorvaldsdóttir, H., Robinson, J. T., & Mesirov, J. P. (2013). Integrative Geno
 
 Vaser, R., & Šikić, M. (2021). Time- and memory-efficient genome assembly with Raven. *Nature Computational Science*, 1, 332–336. https://doi.org/10.1038/s43588-021-00073-4
 
-Wick, R. R., & Holt, K. E. (2019). Benchmarking of long-read assemblers for prokaryote whole genome sequencing. *F1000Research*, 8, 2138. https://doi.org/10.12688/f1000research.21782.4
+Wick, R. R., & Holt, K. E. (2021). Benchmarking of long-read assemblers for prokaryote whole genome sequencing. *F1000Research*, 8, 2138. https://doi.org/10.12688/f1000research.21782.4
 
 NCBI Sequence Read Archive (SRA). Oxford Nanopore R10 reads for Salmonella enterica. Run accession: SRR32410565.
+
+Oxford Nanopore Technologies. Medaka: Sequence correction provided by ONT Research. https://github.com/nanoporetech/medaka
+
+NCBI. SRA Toolkit. https://github.com/ncbi/sra-tools
+
+Hunter, J. D. (2007). Matplotlib: A 2D graphics environment. *Computing in Science & Engineering*, 9(3), 90–95. https://doi.org/10.1109/MCSE.2007.55
+
+Circa. OMGenomics circular genome visualization. https://circa.omgenomics.com/
