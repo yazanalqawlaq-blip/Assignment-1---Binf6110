@@ -38,7 +38,7 @@ No pre-assembly read filtering or quality control was performed, as the R10.4.1 
 
 ### De Novo Genome Assembly
 
-De novo assembly was performed using Flye v2.9.6 with the `--nano-hq` preset, which is optimized for high-accuracy Nanopore reads with error rates below 5%. Assembly was run with 16 threads (`--threads 16`). Flye was selected over alternative long-read assemblers such as Canu and miniasm because it constructs repeat graphs that effectively resolve repetitive regions in bacterial genomes while maintaining computational efficiency, and it produces polished consensus sequences as part of its core pipeline (Kolmogorov et al., 2019; Wick & Holt, 2021).
+The raw reads were assembled de novo with Flye v2.9.6 with the `--nano-hq` preset, which is optimized for high-accuracy Nanopore reads with error rates below 5% (Kolmogorov et al., 2019). Assembly was run with 16 threads (`--threads 16`). Flye was selected over alternative long-read assemblers such as Canu and miniasm because it constructs repeat graphs that effectively resolve repetitive regions in bacterial genomes while maintaining computational efficiency, and it produces polished consensus sequences as part of its core pipeline (Kolmogorov et al., 2019; Wick & Holt, 2021).
 
 ### Assembly and Polishing
 
